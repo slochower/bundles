@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import json
+
+actions = { 'actions': [ { 'type': 'changeFlags', 'enable': [ '\\Flagged', '$MailFlagBit0', '$MailFlagBit2' ], 'disable': [ '$MailFlagBit1' ] } ] }
+print(json.dumps(actions))

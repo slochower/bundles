@@ -1,0 +1,7 @@
+{
+    name    = 'My Saver';
+    environment = "MM_CONTENT_TYPE=${content-type.type:text}\nMM_CONTENT_SUBTYPE=${content-type.subtype:plain}\nMM_FROM_NAME=${from.name:${from.address}}\nMM_SUBJECT=${subject.body:No subject available}\n";
+    inputFilesPattern = 'application/';
+    script = '#!/bin/bash\npython "${MM_BUNDLE_SUPPORT}/bin/cat.py"';
+    uuid = 'FC1C2CDC-15F0-4C2F-AADF-D864780ED216';
+}

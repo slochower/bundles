@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>description</key>
+	<string>Save PDF attachments based on sender name.</string>
+	<key>name</key>
+	<string>My Saver</string>
+	<key>uuid</key>
+	<string>1F1196F4-6A61-4D3C-9D9D-AC942C30C1BA</string>
+</dict>
+</plist>
